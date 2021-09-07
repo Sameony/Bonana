@@ -11,3 +11,9 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 
+#txt-output{
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid black;
+    display: block;
+}
