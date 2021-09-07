@@ -9,11 +9,84 @@
 body{
     margin:0px;
     font-family: 'Indie Flower', cursive;
+    background-color: var(--primary-color);
 }
 
+/*Input output boxes*/
 #txt-output{
     padding: 2rem;
-    margin: 1rem;
     border: 1px solid black;
     display: block;
+    width: 70%;
+    height: 4rem;
+    margin: 2rem auto;
+    background-color: white;
+}
+
+#txt-input{
+    padding: 2rem;
+    display: block;
+    height: 4rem;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+/*Header style*/
+.prim{
+    background-color: var(--seconday-color);
+    border-radius: 0 0 4rem 4rem;
+    padding: 1rem;
+}
+
+.header{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.stroke{
+    -webkit-text-stroke: 1px rgb(3, 3, 3);
+}
+
+
+/*Button*/
+#btn-check{
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--seconday-color);
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: x-large;
+    border-color: var(--seconday-color);
+    box-shadow:  1px 1px 20px 0 var(--seconday-color);
+    
+}
+
+.container{
+    padding: 1rem;
+
+}
+
+/*Footer*/
+
+.footer{
+    background-color: var(--seconday-color);
+    border-radius: 4rem 4rem 0 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-header{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+.footer-smol{
+    font-size: x-large;
 }
