@@ -18,8 +18,9 @@ function errorHandler(error)
 function fetchit(url)
 {
     fetch(url)
-    .then(response=>response.json)
-    .then(json=>txt_output.innerText(json.contents.translated))               //output
+    .then(response=>response.json())
+    .then(json=>{
+        txt_output.innerText=(json.contents.translated)})               //output
     .catch(errorHandler)
 }
 
