@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Mansalva&family=Reggae+One&display=swap');
 
 :root{
     --primary-color: yellow;
@@ -9,7 +9,8 @@
 
 body{
     margin:0px;
-    font-family: 'Mansalva', cursive;
+    /* font-family: 'Mansalva', cursive; */
+    
     background-color: var(--primary-color);
 }
 
@@ -45,7 +46,7 @@ body{
 
 .header{
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Reggae One', cursive;
     font-size: xx-large;
     color: white;
     text-align: center;
@@ -77,6 +78,10 @@ body{
 
 }
 
+.bot-text{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
 /*Footer*/
 
 .footer{
@@ -86,14 +91,21 @@ body{
     text-align: center;
     color: white;
     padding: 1rem;
+    font-family: 'Reggae One', cursive;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    color:white;
 }
 
 .footer-header{
-    font-size: xx-large;
-    font-weight: bolder;
-    
-}
-
-.footer-smol{
     font-size: x-large;
+    font-weight: bold;
 }
